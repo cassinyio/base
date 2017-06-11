@@ -1,0 +1,1 @@
+# This image is used as base for all the Cassiny's images
