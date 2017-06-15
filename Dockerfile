@@ -15,7 +15,7 @@ USER root
 ENV LANG C.UTF-8
 ENV DEBIAN_FRONTEND noninteractive
 
-# Update nad install needed libraries
+# Update and install needed libraries
 RUN apt-get -yq update && \
     apt-get -yq --no-install-recommends upgrade && \
     apt-get -yq --no-install-recommends install apt-utils bzip2 wget git \
