@@ -1,7 +1,7 @@
 # Copyright (c) 2017, Cassiny.io OÜ
 # Distributed under the terms of the Modified BSD License.
 
-# This is the cassinyio/base image
+# cassinyio/base
 # used as a base for all images
 
 # https://hub.docker.com/_/ubuntu/
