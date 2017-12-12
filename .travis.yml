@@ -5,6 +5,10 @@ language: generic
 services:
   - docker
 
+branches:
+  only:
+    - master
+
 env:
   global:
     - COMMIT=${TRAVIS_COMMIT::8}
