@@ -17,4 +17,4 @@ script:
   - docker login -u $DOCKER_USER -p $DOCKER_PASSWORD
   - export REPO=cassinyio/base
   - docker build -f Dockerfile -t $REPO:$COMMIT .
-  - if [ "$TRAVIS_BRANCH" == "master" ]; then docker push $REPO; fi
+  - if [ "$TRAVIS_PULL_REQUEST" = "false" ]; then docker push $REPO; else echo "PR skip docker push"; fi
