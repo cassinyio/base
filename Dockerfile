@@ -18,6 +18,7 @@ RUN apt-get -yq update && \
     apt-get -yq --no-install-recommends install \
     apt-utils \
     build-essential \
+    unzip \
     bzip2 \
     wget \
     git \
